@@ -1,0 +1,46 @@
+[
+    {
+        id: "0",
+        image: "",
+        type: "t-shirt",
+        size: "l",
+        description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        price: "120"
+    },
+    
+    {
+        id: "1",
+        image: "",
+        type: "t-shirt",
+        size: "s",
+        description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        price: "50"
+    },
+    
+    {
+        id: "2",
+        image: "",
+        type: "snap",
+        size: "l",
+        description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        price: "40"
+    },
+    
+    {
+        id: "3",
+        image: "",
+        type: "snap",
+        size: "s",
+        description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        price: "40"
+    },
+    
+    {
+        id: "4",
+        image: "",
+        type: "snap",
+        size: "x",
+        description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        price: "200"
+    }
+]
