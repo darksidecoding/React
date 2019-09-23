@@ -1,7 +1,7 @@
 [
     {
         "id": "0",
-        "image": "https://raw.githubusercontent.com/darksidecoding/React/blob/master/resMaterial/t-shirt/tshirt1.png",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/t-shirt/tshirt1.png",
         "type": "t-shirt",
         "size": "l",
         "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -10,7 +10,7 @@
     
     {
         "id": "1",
-        "image": "https://raw.githubusercontent.com/darksidecoding/React/blob/master/resMaterial/t-shirt/tshirt2.png",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/t-shirt/tshirt2.png",
         "type": "t-shirt",
         "size": "s",
         "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -19,7 +19,7 @@
     
     {
         "id": "2",
-        "image": "https://raw.githubusercontent.com/darksidecoding/React/blob/master/resMaterial/snap/snap1.png",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/snap/snap1.png",
         "type": "snap",
         "size": "l",
         "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -28,7 +28,7 @@
     
     {
         "id": "3",
-        "image": "https://raw.githubusercontent.com/darksidecoding/React/blob/master/resMaterial/snap/snap2.png",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/snap/snap2.png",
         "type": "snap",
         "size": "s",
         "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -37,7 +37,7 @@
     
     {
         "id": "4",
-        "image": "https://raw.githubusercontent.com/darksidecoding/React/blob/master/resMaterial/snap/snap3.png",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/snap/snap3.png",
         "type": "snap",
         "size": "xl",
         "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
