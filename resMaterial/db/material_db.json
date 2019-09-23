@@ -2,7 +2,6 @@
     {
         "id": "0",
         "image": "https://raw.githubusercontent.com/darksidecoding/React/blob/master/resMaterial/t-shirt/tshirt1.png",
-        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/t-shirt/tshirt1.png",
         "type": "t-shirt",
         "size": "l",
         "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
