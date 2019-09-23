@@ -36,4 +36,4 @@ const styles = StyleSheet.create({
 })
 
 // export
-export default Header
+export { Header }

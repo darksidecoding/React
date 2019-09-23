@@ -1,5 +1,5 @@
 //Imports
-import React, {Fragment} from 'react'
+import React, {Fragment, Component} from 'react'
 import {
   SafeAreaView,
   StyleSheet,
@@ -7,7 +7,8 @@ import {
   View,
   Text,
   StatusBar,
-  Image
+  Image,
+  Dimensions
 } from 'react-native'
 import {
   LearnMoreLinks,
@@ -15,14 +16,14 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen'
-import Header from './src/components/uikit/Header'
-import ShopCard from './src/components/uikit/ShopCard'
+import { Header, ShopCard } from './src/components/uikit'
 
 //Variables
-var DBUrl = "https://github.com/darksidecoding/React/blob/master/resMaterial/db/material_db.json"
+
+const DBUrl = "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/db/material_db.json"
 
 //Functions
-const App = () => {
+export default class App extends Component  {
     state = {
         DBJson: []
     }
@@ -39,13 +40,34 @@ const App = () => {
         }
 
     }
-    
-  return (
-      <View>
-        <Header/>
-        <ShopCard/>
-      </View>
-  )
+
+    render(){
+    const { DBJson } = this.state
+    const {containerList } = styles
+    return (
+        <View>
+            <Header/>
+            <ScrollView>
+                <View style = { containerList }>
+                {
+                    DBJson.map(item => (
+                        <ShopCard date = {item} key = {item.id} />
+                    ))
+                }
+                </View>
+            </ScrollView>
+            </View>
+        );
+    }
 }
 
-export default App;
+const styles = StyleSheet.create({
+    containerList: {
+        marginTop: 30,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        flexShrink: 2,
+        justifyContent: 'space-around',
+        marginBottom: 150
+    } 
+})
