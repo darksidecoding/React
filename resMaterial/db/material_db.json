@@ -1,7 +1,7 @@
 [
     {
         id: "0",
-        image: "",
+        image: "https://github.com/darksidecoding/React/blob/master/resMaterial/t-shirt/tshirt1.png",
         type: "t-shirt",
         size: "l",
         description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -10,7 +10,7 @@
     
     {
         id: "1",
-        image: "",
+        image: "https://github.com/darksidecoding/React/blob/master/resMaterial/t-shirt/tshirt2.png",
         type: "t-shirt",
         size: "s",
         description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -19,7 +19,7 @@
     
     {
         id: "2",
-        image: "",
+        image: "https://github.com/darksidecoding/React/blob/master/resMaterial/snap/snap1.png",
         type: "snap",
         size: "l",
         description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -28,7 +28,7 @@
     
     {
         id: "3",
-        image: "",
+        image: "https://github.com/darksidecoding/React/blob/master/resMaterial/snap/snap2.png",
         type: "snap",
         size: "s",
         description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
@@ -37,9 +37,9 @@
     
     {
         id: "4",
-        image: "",
+        image: "https://github.com/darksidecoding/React/blob/master/resMaterial/snap/snap3.png",
         type: "snap",
-        size: "x",
+        size: "xl",
         description: "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
         price: "200"
     }
