@@ -1,17 +1,19 @@
 import React from 'react'
-import { Text, StyleSheet, View, Image, Button } from 'react-native'
+import { Text, StyleSheet, View, Image, Button, TouchableOpacity } from 'react-native'
 import { heightWindow, widthWindow } from '../../constants' 
 
-const ShopCard = ({date}) => {
+const ShopCard = ({date, onPress}) => {
     const { containerCard, h1, coverImage, priceCard, buttonCard } = styles
     const {image, type, price} = date
     return (
-        <View style = { containerCard }>
-            <Image source = {{uri: image}} style = { coverImage } />
-            <Text style = { h1 }> {type} </Text>
-            <Text style = { priceCard }>{price}</Text>
-            <Button title = "Order" color = "#5F4B8B" style = { buttonCard } onPress={() => Alert.alert('Simple Button pressed')}/>
-        </View>
+        <TouchableOpacity onPress = {onPress}>
+            <View style = { containerCard }>
+                <Image source = {{uri: image}} style = { coverImage } />
+                <Text style = { h1 }> {type.toUpperCase()} </Text>
+                <Text style = { priceCard }>{price}$</Text>
+                <Button title = "Order" color = "#5F4B8B" style = { buttonCard } onPress={() =>     Alert.alert('Simple Button pressed')}/>
+            </View>
+        </TouchableOpacity>
     )
 }
 
@@ -23,6 +25,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.4,
         elevation: 7,
         padding: 10,
+        paddingVertical: 10,
         width: widthWindow / 2.1
     },
     h1: {
