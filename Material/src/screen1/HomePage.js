@@ -17,6 +17,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen'
 import { Header, ShopCard } from '../components/uikit'
+import {
+    MATERIAL_DETAILS
+} from '../routes'
 
 //Variables
 
@@ -25,15 +28,15 @@ const DBUrl = "https://raw.githubusercontent.com/darksidecoding/React/master/res
 //Functions
 export default class HomePage extends Component  {
     state = {
-        DBJson: []
+       data: []
     }
     
     componentDidMount = async() => {
         
         try {
             const response = await fetch(DBUrl)
-            const DBJson = await response.json()
-            this.setState({DBJson})   
+            const data = await response.json()
+            this.setState({data})   
         } 
         catch(e){
             throw e
@@ -42,20 +45,20 @@ export default class HomePage extends Component  {
     }
 
     render(){
-    const { DBJson } = this.state
+    const { data } = this.state
     const {containerList } = styles
-    const { navigation } = this.state
+    const { navigation } = this.props
     return (
         <View>
             <Header/>
             <ScrollView>
                 <View style = { containerList }>
                 {
-                    DBJson.map(item => (
+                    data.map(item => (
                         <ShopCard 
                             date = {item} 
                             key = {item.id}
-                            onPress = {() => navigation.navigate(MATERIAL_DETAILS, (DBJson))}
+                            onPress = {() => navigation.navigate(MATERIAL_DETAILS, (item))}
                         />
                     ))
                 }
