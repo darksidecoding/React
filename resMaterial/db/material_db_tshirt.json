@@ -1,0 +1,41 @@
+[
+    {
+        "id": "0",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/t-shirt/tshirt1.png",
+        "type": "t-shirt",
+        "size": "l",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "120",
+        "name": "Stone Island R50"
+    },
+    
+    {
+        "id": "1",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/t-shirt/tshirt2.png",
+        "type": "t-shirt",
+        "size": "s",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "50",
+        "name": "Stone Island"
+    },
+    
+    {
+        "id": "3",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/t-shirt/tshirt3.jpg",
+        "type": "t-shirt",
+        "size": "s",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "50",
+        "name": "Stone Island"
+    },
+    
+    {
+        "id": "4",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/t-shirt/tshirt4.jpg",
+        "type": "t-shirt",
+        "size": "s",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "50",
+        "name": "Stone Island"
+    }
+]

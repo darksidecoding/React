@@ -23,7 +23,7 @@ import {
 
 //Variables
 
-const DBUrl = "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/db/material_db.json"
+const DBUrl = "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/db/material_db_hoody.json"
 
 //Functions
 export default class HomePage extends Component  {

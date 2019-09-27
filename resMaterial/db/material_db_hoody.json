@@ -1,0 +1,41 @@
+[
+    {
+        "id": "0",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/hoody/hoody1.jpg",
+        "type": "hoody",
+        "size": "l",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "40",
+        "name": "RedBull 150"
+    },
+    
+    {
+        "id": "1",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/hoody/hoody2.jpg",
+        "type": "hoody",
+        "size": "s",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "40",
+        "name": "Stone Island R2"
+    },
+    
+    {
+        "id": "2",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/hoody/hoody3.jpg",
+        "type": "hoody",
+        "size": "xl",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "200",
+        "name": "Stone Island R20"
+    },
+    
+    {
+        "id": "3",
+        "image": "https://raw.githubusercontent.com/darksidecoding/React/master/resMaterial/hoody/hoody4.jpg",
+        "type": "hoody",
+        "size": "xl",
+        "description": "a piece of underwear for both sexes, usually without buttons, collars and pockets, with short or long sleeves",
+        "price": "200",
+        "name": "Stone Island R20"
+    }
+]
