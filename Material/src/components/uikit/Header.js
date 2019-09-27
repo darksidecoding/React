@@ -8,13 +8,13 @@ import {View, Text, StyleSheet, Image} from 'react-native'
 }*/
 
 // body
-const Header = () => {
+const Header = ({ title }) => {
     
-    const {headerView, iconStyle} = styles
+    const {headerView, iconStyle, titleStyle} = styles
     return(
         <View style = {headerView} >
             <Image source={require("./img/openMenu.png")} style = {iconStyle}/>
-            <Image source={require("./img/searchTop.png")} style = {iconStyle}/>
+            <Text style = { titleStyle }> { title } </Text>
         </View>
     )
 }
@@ -32,6 +32,11 @@ const styles = StyleSheet.create({
     iconStyle: {
         width: 24,
         height: 24
+    },
+    titleStyle: {
+        fontSize: 16,
+        color: '#fff',
+        fontFamily: "AvenirNext-DemiBold"
     }
 })
 

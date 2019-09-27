@@ -4,12 +4,12 @@ import { heightWindow, widthWindow } from '../../constants'
 
 const ShopCard = ({date, onPress}) => {
     const { containerCard, h1, coverImage, priceCard, buttonCard } = styles
-    const {image, type, price} = date
+    const {image, type, price, name} = date
     return (
         <TouchableOpacity onPress = {onPress}>
             <View style = { containerCard }>
                 <Image source = {{uri: image}} style = { coverImage } />
-                <Text style = { h1 }> {type.toUpperCase()} </Text>
+                <Text style = { h1 }> {name.toUpperCase()} </Text>
                 <Text style = { priceCard }>{price}$</Text>
                 <Button title = "Order" color = "#5F4B8B" style = { buttonCard } onPress={() =>     Alert.alert('Simple Button pressed')}/>
             </View>

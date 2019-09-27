@@ -18,7 +18,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen'
 import { Header, ShopCard } from '../components/uikit'
 import {
-    TSHIRT_DETAILS
+    SNAP_DETAILS
 } from '../routes'
 
 //Variables
@@ -28,7 +28,7 @@ const DBUrl = "https://raw.githubusercontent.com/darksidecoding/React/master/res
 //Functions
 export default class HomePage extends Component  {
     state = {
-       title: "T-Shirt",
+       title: "Snap",
        data: []
     }
     
@@ -59,8 +59,8 @@ export default class HomePage extends Component  {
                         <ShopCard 
                             date = {item} 
                             key = {item.id}
-                            onPress = {() => navigation.navigate(TSHIRT_DETAILS, (item))}
-                        />  
+                            onPress = {() => navigation.navigate(SNAP_DETAILS, (item))}
+                        />
                     ))
                 }
                 </View>
