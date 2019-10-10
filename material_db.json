@@ -1,0 +1,27 @@
+[
+    {
+        "id": "0",
+        "email": "example@gmail.com",
+        "password": "000000",
+        "name": "Joe",
+        "sername": "Sten",
+        "img": ""
+    },
+    {
+        "id": "1",
+        "email": "darksidebooking@gmail.com",
+        "password": "000000",
+        "name": "Joe",
+        "sername": "Sten",
+        "img": ""
+    },
+    {
+        "id": "2",
+        "email": "admin@gmail.com",
+        "password": "000000",
+        "name": "admin",
+        "sername": "admin",
+        "img": ""
+    }
+
+]
